@@ -1,0 +1,178 @@
+@charset "ISO-8859-1";
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/*SPAN*/
+.mandatory{
+	color: red;
+}
+
+/*NAIGATION*/
+#main-header{
+	font-family: 'Raleway', sans-serif;
+}
+.navbar-brand::first-letter {
+	color: orange;
+	font-size: 40px;
+	margin-left: 15%;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+	color: white;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+	color: orange;
+}
+
+.navbar-dark .navbar-nav .dropdown-item {
+	color: white;
+}
+
+.navbar-dark .navbar-nav .dropdown-item:hover {
+	color: black;
+}
+
+/*MAIN*/
+#main-section {
+	height: 465px;
+	margin-top: 80px;
+	font-family: 'Raleway', sans-serif;
+}
+#main-section h1{
+	font-size: 35px;
+}
+/*FOOTER*/
+#main-footer {
+	padding-top: 4px;
+	font-family: 'Raleway', sans-serif;
+}
+
+.row a {
+	color: aliceblue;
+	font-size: 12px;
+}
+
+.row p {
+	color: orange;
+}
+
+.row img {
+	height: 45%;
+	width: 35%;
+}
+
+/*MODAL*/
+.img-responsive {
+	max-width: 50%;
+}
+
+.modal-header, .modal-footer {
+	background: rgb(204, 202, 195);
+}
+
+/*GROUPS*/
+#group-section {
+	background:#f2f9ff;
+	
+}
+
+.edit-section {
+	width: 100%;
+	margin: 80px 0px;
+	
+}
+/*TABLE*/
+
+body {
+  --table-width: 100%; /* Or any value, this will change dinamically */
+
+}
+tbody {
+  display:block;
+  height: 270px;
+  overflow-y:auto;
+}
+#group-section .thead-color{
+	color: #ffbd42;
+}
+#group-section h1{
+	font-size: 35px;
+}
+thead, tbody tr {
+  display:table;
+  width: var(--table-width);
+  table-layout:fixed;
+}
+
+/*---------MEHUL---------*/
+/*FORM CARD,contain form*/
+#form-card
+{
+	/*background-color: black;#353A40*/
+	width: 73%;
+	margin-bottom: 30%;
+}
+/*STATUS-VALUE,input field to show message*/
+#status-value
+{
+	width: 100%;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+    margin-left:0%;
+}
+}
+/*STATUS-TOGGLER,this contain input field and button to activate or deactivate status*/
+#status-toggler
+{
+	margin-right: 0px;
+    width: -webkit-fill-available;
+}
+/*Button to activate or deactivate*/
+.status-buttons
+{
+	margin-left:50px;
+}
+/*deactivate button*/
+#option2
+{
+	   max-height: 50px;
+       margin-left: 34%;
+}
+/*activate button*/
+#option1
+{
+	   max-height: 50px;
+       margin-left: 34%;
+}
+/*label for activate button*/
+#option1-lable
+{
+		padding-top: 1%;
+	    height: 32px;
+	    padding-right: 10%;
+	    margin-left: -2%;
+}
+/*label for deactivate button*/
+#option2-lable
+{
+	    padding-top: 1%;
+	    height: 32px;
+	    padding-right: 5%;
+}
+/*body of card form*/
+.card-body
+{    
+	margin: auto;
+}
+
+/*CREATE BUTTON*/
+#create-btn
+{
+	border:1px solid orange;
+	color:orange;
+}
+/*----------------------------*/

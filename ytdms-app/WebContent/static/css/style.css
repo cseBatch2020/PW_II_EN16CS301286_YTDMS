@@ -1,0 +1,147 @@
+@charset "ISO-8859-1";
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	
+}
+
+/*NAIGATION*/
+.navbar-brand::first-letter{
+	color: orange;
+	font-size: 40px;
+	margin-left: 15%;
+	font-family: 'Raleway', sans-serif;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: orange;
+    font-family: 'Raleway', sans-serif;
+}
+.navbar-dark .navbar-nav .dropdown-item{
+	color: white;
+	font-family: 'Raleway', sans-serif;
+}
+.navbar-dark .navbar-nav .dropdown-item:hover{
+	color: black;
+	font-family: 'Raleway', sans-serif;
+}
+
+/*MAIN*/
+#main-section{
+	height: 465px;
+	margin-top:80px;
+	min-height: 650px;
+	font-family: 'Raleway', sans-serif;
+}
+#add-main-section{
+	min-height: 800px;
+	margin-top:80px;
+	font-family: 'Raleway', sans-serif;
+
+}
+#main-sections h1{
+	text-align:left;
+	font-size:35px;
+}
+#main-section h1{
+	text-align:left;
+	font-size:35px;
+}
+
+#errMsg{
+	color: red;
+}
+.text-center input[type=submit]{
+	width: 210px;
+}
+.card-body{
+	
+	height:550px;
+}
+.home-section .dark-overlay {
+    position: absolute;
+    color:white;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 600px;
+    background: rgba(0, 0, 0, 0.7)
+}
+.form-group{
+	color:white;
+}
+
+
+
+/*FOOTER*/
+#main-footer{
+	padding-top: 4px;
+}
+.row a{
+	color: aliceblue;
+	font-size: 12px;
+}
+.row p{
+	color: orange;
+}
+.row img{
+	height: 45%;
+    width: 35%;
+}
+
+/*MODAL*/
+.img-responsive{
+	max-width: 50%;
+}
+
+.modal-header,.modal-footer{
+	background: rgb(204, 202, 195);
+}
+
+/*GROUPS*/
+.group-section{	
+	width: 100%;
+    margin: 100px 0px;
+    background: /*cornsilk;*/aliceblue;
+    
+    }
+    .edit-section{
+    width: 100%;
+    margin: 100px 0px;
+    }
+
+.table-bordered .small-btn{
+	padding: 1px;
+}    
+    
+body {
+  --table-width: 100%; /* Or any value, this will change dinamically */
+}
+tbody {
+  display:block;
+  height: 325px;
+  overflow-y:auto;
+}
+thead, tbody tr {
+  display:table;
+  width: var(--table-width);
+  table-layout:fixed;
+}
+#content-Section{
+	width: 80%;
+	margin-left:10%;
+    margin-bottom: 25%;
+}
+#serial-column{
+	width:100px;
+}
+#action-column{
+	width:300px;
+}
+ 
+ 

@@ -1,0 +1,88 @@
+@charset "ISO-8859-1";
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	
+}
+.anyClass {
+  overflow-y: scroll;
+  height: 500px;
+}
+
+.custom-select {
+	display: block;
+	width: 20%;
+	float: right;
+	margin-left: 600px;
+}
+
+.card
+{
+	width:32%;
+	
+}
+/*NAIGATION*/
+.navbar-brand::first-letter{
+	color: orange;
+	font-size: 40px;
+	margin-left: 15%;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: orange;
+}
+.navbar-dark .navbar-nav .dropdown-item{
+	color: white;
+}
+.navbar-dark .navbar-nav .dropdown-item:hover{
+	color: black;
+}
+
+/*MAIN*/
+#main-section{
+	min-height: 520px;
+	margin-top:80px;
+	font-family: 'Raleway', sans-serif;
+
+}
+
+/*FOOTER*/
+#main-footer{
+	padding-top: 4px;
+}
+.row a{
+	color: aliceblue;
+	font-size: 12px;
+}
+.row p{
+	color: orange;
+}
+.row img{
+	height: 45%;
+    width: 35%;
+}
+
+/*MODAL*/
+.img-responsive{
+	max-width: 50%;
+}
+
+.modal-header,.modal-footer{
+	background: rgb(204, 202, 195);
+}
+
+/*GROUPS*/
+.group-section{	
+	width: 100%;
+    margin: 100px 0px;
+    background: /*cornsilk;*/aliceblue;
+    
+    }
+    .edit-section{
+    width: 100%;
+    margin: 100px 0px;
+    }

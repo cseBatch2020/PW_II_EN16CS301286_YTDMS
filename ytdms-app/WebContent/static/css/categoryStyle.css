@@ -1,0 +1,122 @@
+@charset "ISO-8859-1";
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	
+}
+
+/*NAIGATION*/
+.navbar-brand::first-letter{
+	color: orange;
+	font-size: 40px;
+	margin-left: 15%;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: orange;
+}
+.navbar-dark .navbar-nav .dropdown-item{
+	color: white;
+}
+.navbar-dark .navbar-nav .dropdown-item:hover{
+	color: black;
+}
+
+/*MAIN*/
+#main-section{
+	height: 465px;
+	margin-top:80px;
+
+}
+
+/*FOOTER*/
+#main-footer{
+	padding-top: 4px;
+}
+.row a{
+	color: aliceblue;
+	font-size: 12px;
+}
+.row p{
+	color: orange;
+}
+.row img{
+	height: 45%;
+    width: 35%;
+}
+
+/*MODAL*/
+.img-responsive{
+	max-width: 50%;
+}
+
+.modal-header,.modal-footer{
+	background: rgb(204, 202, 195);
+}
+
+/*GROUPS*/
+#category_section{	
+	width: 100%;
+    margin: 80px 0px;
+    margin-bottom: 20%
+    background: /*cornsilk;*/aliceblue;
+    
+    }
+    .edit-section{
+    width: 100%;
+    margin: 100px 0px;
+    }
+    
+   /*MAIN SECTION*/
+  
+   
+/*TABLE*/
+.table{
+	 width: 100%;
+	
+}
+.thead{
+	 font-size: 18px;  
+}
+a.disabled {
+  pointer-events: none;
+  cursor: default;
+}
+/*Button*/
+
+.btn{
+	    padding: 2.5px;
+}
+/*TABLE*/
+
+body {
+  --table-width: 100%; /* Or any value, this will change dinamically */
+}
+tbody {
+  display:block;
+  height: 250px;
+
+  overflow-y:auto;
+}
+#category_section .thead-color{
+       color: #ffbd42;
+}
+thead, tbody tr {
+  display:table;
+  width: var(--table-width);
+  table-layout:fixed;
+}
+#category_section h1{
+	font-size: 35px;
+}
+.display-4{
+	margin-top: 80px;
+	font-size:35px;
+}
+#category_section{
+	margin-top: 0px;
+}

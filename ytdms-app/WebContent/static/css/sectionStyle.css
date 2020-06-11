@@ -1,0 +1,180 @@
+@charset "ISO-8859-1";
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	
+}
+
+/*NAIGATION*/
+.navbar-brand::first-letter {
+	color: orange;
+	font-size: 40px;
+	margin-left: 15%;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+	color: white;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+	color: orange;
+}
+
+.navbar-dark .navbar-nav .dropdown-item {
+	color: white;
+}
+
+.navbar-dark .navbar-nav .dropdown-item:hover {
+	color: black;
+}
+
+/*MAIN*/
+#main-section {
+	height: 465px;
+	margin-top: 80px;
+}
+
+/*FOOTER*/
+#main-footer {
+	padding-top: 4px;
+}
+
+.row a {
+	color: aliceblue;
+	font-size: 12px;
+}
+
+.row p {
+	color: orange;
+}
+
+.row img {
+	height: 45%;
+	width: 35%;
+}
+
+/*MODAL*/
+.img-responsive {
+	max-width: 50%;
+}
+
+.modal-header, .modal-footer {
+	background: rgb(204, 202, 195);
+}
+
+/*GROUPS*/
+.group-section {
+	width: 100%;
+	margin: 100px 0px;
+	background: /*cornsilk;*/ aliceblue;
+}
+
+.edit-section {
+	width: 100%;
+	margin: 100px 0px;
+}
+
+
+<!--SECTION CSS-->
+
+ #cancel-btn {
+	margin-left: 70%;
+}
+
+
+img {
+	width: 20px;
+	height: 20px;
+	border-radius: 20px;
+	margin-bottom: 6%;
+}
+
+#add-icon-div {
+	width: 20px;
+	height: 20px;
+	margin-bottom: 6%;
+}
+
+#category-options {
+	width: 92%;
+}
+
+#caret-icon {
+	width: 20px;
+	height: 20px;
+}
+
+#main-container {
+	overflow-y: hidden;
+	overflow: auto;
+	margin-top: 11%;
+}
+
+body {
+	overflow: hidden;
+}
+
+#create-section-btn {
+	height: 38px;
+}
+
+.table-bordered .small-btn{
+       padding: 1px;
+}    
+    
+body {
+  --table-width: 100%; / Or any value, this will change dynamically /
+  font-family: 'Raleway', sans-serif;
+}
+
+tbody {
+	
+  display:block;
+  height: 325px;
+  overflow-y:auto;
+}
+thead, tbody tr {
+  .table-bordered .small-btn{
+       padding: 1px;
+}    
+    
+body {
+  --table-width: 100%; / Or any value, this will change dynamically /
+  font-family: 'Raleway', sans-serif;
+}
+
+tbody {
+  display:block;
+  height: 325px;
+  overflow-y:auto;
+}
+
+thead tbody tr {
+  display:table;
+  width: var(--table-width);
+  table-layout:fixed;
+}
+
+
+
+#content-Section{
+       width: 80%;
+       margin-left:10%;
+}
+#serial-column{
+       width:100px;
+}
+#action-column{
+       width:300px;
+}
+
+#buttons-container
+{
+	margin-left:40%;
+	
+	
+}
